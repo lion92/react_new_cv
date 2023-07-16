@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+
+
+.container{
+    margin: 5px;
+    padding: 5px;
+    flex: 1;
+    background-color: #f4d403;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: 'Calligraffitti', cursive;
+    align-items: center;
+}
+.container div{
+    flex: auto;
+
+}
