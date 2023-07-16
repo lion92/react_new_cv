@@ -5,7 +5,7 @@
     margin: 5px;
     padding: 5px;
     flex: 1;
-    background-color: #f4d403;
+    background-color: #353432;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -14,5 +14,19 @@
 }
 .container div{
     flex: auto;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.nom, .prenom{
+    color: white;
+}
 
+.titrecv{
+    flex: auto;
+    color: red;
+}
+.java{
+    align-items: center;
+    margin-bottom: 10px;
 }
