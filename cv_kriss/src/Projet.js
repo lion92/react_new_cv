@@ -3,9 +3,9 @@ import './projet.css'
 class Projet extends Component {
     render() {
         return (
-            <div className="containerProj">
+            <div className="card">
                 <div>{this.props.projet.titre}</div>
-                <div>{this.props.projet.description}</div>
+                <h2>{this.props.projet.description}</h2>
             </div>
         );
     }

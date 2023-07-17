@@ -1,16 +1,27 @@
-.containerProj{
-    display: flex;
-    padding: 10px;
-    background-color: lightblue;
-    margin-left: 10px;
-    flex-direction: column;
-    height: 300px;
-    text-align: center;
+
+@media (max-width: 599px) {
+    .card {
+        display: flex;
+        border: black 3px solid;
+        padding: 10px;
+        background-color: #4d4d22;
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+    }
 }
 
-.containerProj div{
-    width: 200px;
-    margin-left: 15px;
-    background-color: bisque;
+@media (min-width: 600px) {
 
+    .card {
+        display: flex;
+        height: 300px;
+        border: black 3px solid;
+        padding: 10px;
+        background-color: #828756;
+        width: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
 }
+

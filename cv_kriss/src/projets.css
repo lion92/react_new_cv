@@ -1,7 +1,20 @@
-.containerProjets{
-    display: flex;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
+@media (max-width: 599px) {
+    .containerProjets {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-content: center;
+        background-color: #b2eaa1;
+        flex-direction: column;
+    }
+}
+@media (min-width: 600px) {
+    .containerProjets {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        align-content: center;
+        background-color: #e4dbab;
 
+    }
 }
