@@ -11,22 +11,12 @@
     flex-direction: row;
     font-family: 'Calligraffitti', cursive;
     align-items: center;
+    margin-bottom: 40px;
 }
 .container div{
     flex: auto;
     font-size: 25px;
     align-items: center;
     justify-content: center;
-}
-.nom, .prenom{
-    color: white;
-}
-
-.titrecv{
-    flex: auto;
-    color: red;
-}
-.java{
-    align-items: center;
-    margin-bottom: 10px;
+    text-align: center;
 }

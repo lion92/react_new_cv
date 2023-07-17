@@ -9,11 +9,12 @@ class Header extends Component {
                     <div className="container">
                         <BiLogoJava className="java" size={200} color={"white"} />
                         <IoLogoJavascript className="java" size={200} color={"white"} />
-                        <div style={{margin: '10px'}}>
-                            <img src="https://projet.krissclotilde.com/asset/avatar-gratuit.png" alt="react logo"
-                                 style={{width: '200px',borderRadius: '50%'}}/>
-                        </div>
+
                     </div>
+                    <div style={{margin: '10px'}}>
+                    <img src="https://projet.krissclotilde.com/asset/avatar-gratuit.png" alt="react logo"
+                         style={{width: '200px',borderRadius: '50%'}}/>
+                </div>
                     <div>
                                 <div className="nom">CLOTILDE</div>
                                 <div className="prenom">kriss</div>
