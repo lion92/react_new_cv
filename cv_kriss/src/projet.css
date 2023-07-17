@@ -1,0 +1,16 @@
+.containerProj{
+    display: flex;
+    padding: 10px;
+    background-color: lightblue;
+    margin-left: 10px;
+    flex-direction: column;
+    height: 300px;
+    text-align: center;
+}
+
+.containerProj div{
+    width: 200px;
+    margin-left: 15px;
+    background-color: bisque;
+
+}
