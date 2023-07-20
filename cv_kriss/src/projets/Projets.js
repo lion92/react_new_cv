@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Projet from '../projet/Projet'
 import './projets.css'
 import ImageUrl from '../imageUrl/ImageUrl'
-
+import Footer from '../footer/Footer'
 class Projets extends Component {
 
     render() {
@@ -62,7 +62,7 @@ class Projets extends Component {
             <h2>Cv de kriss</h2>
             <div className="image"></div>
         </div>
-
+<Footer></Footer>
     </>
     )
         ;
