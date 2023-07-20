@@ -15,11 +15,20 @@
     .card {
         border: black 3px solid;
         padding: 10px;
-        background-color: #828756;
-
+        background-color: #e8f19b;
+        margin-top: 20px;
         border-radius: 30px;
         text-align: center;
         font-family: 'Calligraffitti', cursive;
+    }
+    .image {
+        margin: auto;
+        background-image: url(../../public/img.png);
+        width:  20em; /*or 70%, or what you want*/
+        height: 30em; /*or 70%, or what you want*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 @media (min-width: 600px) {
@@ -36,10 +45,20 @@
     .card {
         border: #e5abab 3px solid;
         padding: 10px;
+        margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
         border-radius: 30px;
         text-align: center;
         font-family: 'Calligraffitti', cursive;
+    }
+    .image {
+        margin: auto;
+        background-image: url(../../public/img.png);
+        width:  56em; /*or 70%, or what you want*/
+        height: 80em; /*or 70%, or what you want*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
