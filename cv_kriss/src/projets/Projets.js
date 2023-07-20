@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Projet from '../projet/Projet'
 import './projets.css'
 import ImageUrl from '../imageUrl/ImageUrl'
-import Footer from '../footer/
+import Footer from '../footer/Footer'
 
 class Projets extends Component {
 
