@@ -6,10 +6,19 @@
         text-align: center;
         justify-content: space-between;
         align-content: center;
-        background-color: #b2eaa1;
+        align-content: center;
         flex-direction: column;
         padding: 10px;
         align-content: center;
+        font-family: 'Calligraffitti', cursive;
+    }
+    .card {
+        border: black 3px solid;
+        padding: 10px;
+        background-color: #828756;
+
+        border-radius: 30px;
+        text-align: center;
         font-family: 'Calligraffitti', cursive;
     }
 }
@@ -19,10 +28,18 @@
         text-align: center;
         justify-content: space-between;
         align-content: center;
-        background-color: #e4dbab;
         padding: 10px;
         align-content: center;
         font-family: 'Calligraffitti', cursive;
 
+    }
+    .card {
+        border: #e5abab 3px solid;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        border-radius: 30px;
+        text-align: center;
+        font-family: 'Calligraffitti', cursive;
     }
 }

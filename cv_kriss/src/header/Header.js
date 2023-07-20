@@ -15,7 +15,7 @@ class Header extends Component {
                     <img src="https://projet.krissclotilde.com/asset/avatar-gratuit.png" alt="react logo"
                          style={{width: '200px',borderRadius: '50%'}}/>
                 </div>
-                    <div>
+                    <div style={{color:'orange'}}>
                                 <div className="nom">CLOTILDE</div>
                                 <div className="prenom">kriss</div>
                                  <div className="titrecv">Developpeur FullStack</div>

@@ -3,7 +3,7 @@
     .card {
         border: black 3px solid;
         padding: 10px;
-        background-color: #4d4d22;
+        background-color: #dcdcbd;
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: column;
@@ -16,13 +16,10 @@
     @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
     .card {
-        height: 300px;
         border: black 3px solid;
         padding: 10px;
-        background-color: #828756;
-        width: 400px;
-        margin-left: 20px;
-        margin-right: 20px;
+        background-color: #dbe2a1;
+
         border-radius: 30px;
         text-align: center;
         font-family: 'Calligraffitti', cursive;
