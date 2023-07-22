@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 @media (max-width: 599px) {
+    .fontImage{
+        background-image: url("../../public/font_principal.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Calligraffitti', cursive;
+    }
     .containerProjets {
         display: flex;
         text-align: center;
@@ -10,17 +16,17 @@
         flex-direction: column;
         padding: 10px;
         align-content: center;
-        font-family: 'Calligraffitti', cursive;
+
     }
     .card {
         border: black 3px solid;
         padding: 10px;
-        background-color: #e8f19b;
         margin-top: 20px;
         border-radius: 30px;
         text-align: center;
         font-family: 'Calligraffitti', cursive;
     }
+
     .image {
         margin: auto;
         background-image: url(../../public/img.png);
@@ -39,11 +45,15 @@
         align-content: center;
         padding: 10px;
         align-content: center;
-        font-family: 'Calligraffitti', cursive;
 
     }
+    .fontImage{
+        background-image: url("../../public/font_principal.png");
+        background-repeat: repeat-y;
+        font-family: 'Calligraffitti', cursive;
+    }
     .card {
-        border: #e5abab 3px solid;
+        border: #53634b 3px solid;
         padding: 10px;
         margin-top: 20px;
         margin-left: 20px;

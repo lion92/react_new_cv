@@ -21,7 +21,7 @@ class Footer extends Component {
 
                     <div className="column">
 
-                        <h4>Connect with Us</h4>
+                        <h4>Git hub</h4>
 
                         <ul className="social-icons">
 

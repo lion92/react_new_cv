@@ -1,9 +1,9 @@
 
 @media (max-width: 599px) {
     .card {
+
         border: black 3px solid;
         padding: 10px;
-        background-color: #dcdcbd;
         margin-left: 20px;
         margin-right: 20px;
         flex-direction: column;
@@ -18,7 +18,7 @@
     .card {
         border: black 3px solid;
         padding: 10px;
-        background-color: #dbe2a1;
+
 
         border-radius: 30px;
         text-align: center;

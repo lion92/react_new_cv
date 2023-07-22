@@ -7,8 +7,11 @@ import Projets from './projets/Projets'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <Header></Header>
-        <Projets></Projets>
+        <div className="fontImage">
+            <Header></Header>
+            <Projets></Projets>
+        </div>
+
     </>
 );
 

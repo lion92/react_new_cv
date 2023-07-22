@@ -13,6 +13,7 @@ class Projets extends Component {
         let cvkriss = "blob:null/f1393c43-ba5e-482b-a2fc-0c4de9527646"
         return (
             <>
+                <div className="fontImage">
                 <div className="containerProjets">
                     <div className="card">
                         <Projet projet={{titre: "Java", description: "Projet de développement Java"}}></Projet>
@@ -62,6 +63,7 @@ class Projets extends Component {
                         projet={{titre: "Cv"}}></Projet>
                     <h2>Cv de kriss</h2>
                     <div className="image"></div>
+                </div>
                 </div>
                 <Footer></Footer>
             </>
