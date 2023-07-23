@@ -28,13 +28,13 @@
     }
 
     .image {
-        margin: auto;
-        background-image: url(../../public/img.png);
-        width:  20em; /*or 70%, or what you want*/
-        height: 30em; /*or 70%, or what you want*/
-        background-size: cover;
+        background-image: url(../../public/img.png); /*or 70%, or what you want*/ /*or 70%, or what you want*/
         background-position: center;
         background-repeat: no-repeat;
+        background-size: 100%;
+        width: 100%;
+        margin: auto;
+        height: 50em;
     }
 }
 @media (min-width: 600px) {
@@ -64,11 +64,10 @@
     }
     .image {
         margin: auto;
-        background-image: url(../../public/img.png);
-        width:  56em; /*or 70%, or what you want*/
-        height: 80em; /*or 70%, or what you want*/
-        background-size: cover;
+        background-image: url(../../public/img.png); /*or 70%, or what you want*/
         background-position: center;
         background-repeat: no-repeat;
+        height: 2000px;
+        width: 100%;
     }
 }
