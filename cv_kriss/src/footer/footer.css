@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.qui{
+    color: #9c973a;
+}
 
 a {
     text-decoration: none;
@@ -126,5 +129,8 @@ ul.social-icons li:hover a {
     ul.social-icons li a {
         width: 1.875rem;
         height: 1.875rem;
+    }
+    .qui{
+        color: #828756;
     }
 }

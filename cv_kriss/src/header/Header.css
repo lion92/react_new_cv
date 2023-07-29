@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
-
+.qui{
+    color: #9fcb70;
+}
 .container{
     margin: 5px;
     padding: 5px;

@@ -11,11 +11,12 @@ class Header extends Component {
                         <IoLogoJavascript className="java" size={200} color={"white"} />
 
                     </div>
+                    <a target="_blank" href="https://github.com/lion92">
                     <div style={{margin: '10px'}}>
                     <img src="https://projet.krissclotilde.com/asset/avatar-gratuit.png" alt="react logo"
                          style={{width: '200px',borderRadius: '50%'}}/>
-                </div>
-                    <div style={{color:'orange'}}>
+                </div></a>
+                    <div className="qui">
                                 <div className="nom">CLOTILDE</div>
                                 <div className="prenom">kriss</div>
                                  <div className="titrecv">Developpeur FullStack</div>

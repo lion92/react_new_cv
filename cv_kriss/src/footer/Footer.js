@@ -7,7 +7,7 @@ class Footer extends Component {
 
                 <div className="row">
 
-                    <div className="column">
+                    <div className="column qui">
 
                         <h4>kriss CLOTILDE</h4>
 
