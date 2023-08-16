@@ -5,7 +5,7 @@ class ImageUrl extends Component {
         return (
             <div style={{margin: '10px'}}>
                 <img src={this.props.imageUrl} alt={this.props.titre}
-                     style={{width: '15%',borderRadius: '10%'}}/>
+                     style={{ height:"100px", borderRadius: '10%'}}/>
             </div>
         );
     }

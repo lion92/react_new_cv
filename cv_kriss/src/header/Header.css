@@ -22,3 +22,8 @@
     justify-content: center;
     text-align: center;
 }
+a{
+    color: darkseagreen;
+    font-size: large;
+    font-weight: bold;
+}

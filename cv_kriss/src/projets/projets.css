@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
 
 @media (max-width: 599px) {
+    div{
+        padding: 5px;
+    }
+    .dispositionImageBoulot{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .titre{
+        color: bisque;
+        background-color: #326524;
+        width: 50%;
+        margin-top: 10px;
+    }
     .fontImage{
         background-image: url("../../public/font_principal.png");
         background-repeat: no-repeat;
@@ -10,18 +26,19 @@
     .containerProjets {
         display: flex;
         text-align: center;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: column;
         padding: 10px;
+        align-items: center;
+        flex-wrap: wrap;
 
     }
     .card {
-        border: black 3px solid;
         padding: 10px;
         margin-top: 20px;
-        border-radius: 30px;
         text-align: center;
         font-family: 'Calligraffitti', cursive;
+        opacity: 0.6;
     }
 
     .image {
@@ -36,8 +53,8 @@
         height: 50em;
     }
     .card {
-        background: rgb(247,150,192);
-        background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+        background: rgb(199, 234, 130);
+        background: radial-gradient(circle, rgb(162, 230, 141) 0%, rgb(236, 244, 3) 100%);
         line-height: 42px;
         padding: 0;
         border: none;
@@ -116,13 +133,26 @@
 
 }
 @media (min-width: 600px) {
+    div{
+        padding: 5px;
+        margin: 5px;
+    }
+    .titre{
+        color: bisque;
+        background-color: #6e9466;
+        width: 50%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
     .containerProjets {
         display: flex;
         text-align: center;
-        justify-content: space-between;
-        align-content: center;
         padding: 10px;
-        align-content: center;
+
+        margin: auto;
+
+
 
     }
     .fontImage{
@@ -131,14 +161,10 @@
         font-family: 'Calligraffitti', cursive;
     }
     .card {
-        border: #53634b 3px solid;
-        padding: 10px;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
         border-radius: 30px;
         text-align: center;
         font-family: 'Calligraffitti', cursive;
+       width: 100%
     }
     .image {
         background-image: url(../../public/img.png); /*or 70%, or what you want*/
@@ -152,7 +178,6 @@
         background: radial-gradient(circle, rgb(123, 156, 58) 0%, rgb(254, 246, 185) 100%);
         line-height: 42px;
         padding: 0;
-        border: none;
     }
     .card span {
         position: relative;
@@ -223,6 +248,13 @@
     }
     .card span:hover:after {
         width: 100%;
+    }
+    .dispositionImageBoulot{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
 }

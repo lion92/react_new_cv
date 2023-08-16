@@ -22,11 +22,11 @@ class Projets extends Component {
                     <div className="containerProjets">
                         <div className="card">
                             <Projet projet={{titre: "Java", description: "Projets de développement Java"}}></Projet>
-                            <ImageUrl titre={"java image"} imageUrl={srcImage}></ImageUrl>
+                            <ImageUrl style={{width:"100px"}} titre={"java image"} imageUrl={srcImage}></ImageUrl>
                             <ul style={{fontSize: 30, color: 'blue'}}>
                                 <li>Kata Tondeuse</li>
                                 <li>Kata Mars Rover</li>
-                                <li>3ans d'expériences en java 7 et 8,
+                                <li>3ans d'expériences en java 7 et 8,<br/>
                                     monté en compentence sur kotlin
                                 </li>
                             </ul>
@@ -37,7 +37,7 @@ class Projets extends Component {
                                     titre: "JavaScript",
                                     description: "Projets de développement JavaScript"
                                 }}></Projet>
-                            <ImageUrl style={{height: 10, width: 10}} titre={"javaScript image"}
+                            <ImageUrl titre={"javaScript image"}
                                       imageUrl={srcImageJS}></ImageUrl>
                             <ul style={{fontSize: 30, color: 'blue'}}>
                                 <li>Projet d'entreprise sur Angular</li>
@@ -76,15 +76,14 @@ class Projets extends Component {
                         description: "Entreprises dans lesquelles j'ai eu l'occasion de travailler."
                     }}></Projet>
 
-                    <ul style={{fontSize: 30, color: 'blue'}}>
-                        <li><ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageDSI}></ImageUrl></li>
-                        <li><ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageArkances}></ImageUrl>
-                        </li>
-                        <li><ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageIdeta}></ImageUrl>
-                        </li>
-                        <li><ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageArolla}></ImageUrl>
-                        </li>
-                    </ul>
+                        <div className="dispositionImageBoulot">
+                        <ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageDSI}></ImageUrl>
+                        <ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageArkances}></ImageUrl>
+
+                        <ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageIdeta}></ImageUrl>
+
+                   <ImageUrl titre={"Entreprises où j'ai traivaillé"} imageUrl={srcImageArolla}></ImageUrl>
+                </div>
                 </div>
                 <Footer></Footer>
             </>
