@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Header from './header/Header'
+
 import reportWebVitals from './reportWebVitals';
-import Projets from './projets/Projets'
+import Final from "./final/Final";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
-        <div className="fontImage">
-            <Header></Header>
-            <Projets></Projets>
-        </div>
+      <Final></Final>
 
     </>
 );

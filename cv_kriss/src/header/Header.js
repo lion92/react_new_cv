@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import './Header.css'
 import { BiLogoJava } from "react-icons/bi";
 import { IoLogoJavascript } from "react-icons/io";
+import logokriss from '../ideta.png';
 class Header extends Component {
     render() {
         return (
@@ -13,7 +14,7 @@ class Header extends Component {
                     </div>
                     <a target="_blank" href="https://github.com/lion92">
                     <div style={{margin: '10px'}}>
-                    <img src="https://projet.krissclotilde.com/asset/avatar-gratuit.png" alt="react logo"
+                    <img src={logokriss} alt="react logo"
                          style={{width: '200px',borderRadius: '50%'}}/>
                 </div></a>
                     <a target="_blank" href="https://github.com/lion92">
